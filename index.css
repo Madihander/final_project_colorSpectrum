@@ -1,0 +1,8 @@
+/*https://www.magicpattern.design/tools/css-backgrounds*/
+/*Background на каждую страницу*/
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 1.3px, #e5e5f7 1.3px);
+    background-size: 36px 36px;
+}
