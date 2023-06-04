@@ -13,6 +13,16 @@ body {
     background-size: 36px 36px;
 }
 
+#title{
+    font-size: 3rem;
+    font-family: 'Pacifico',cursive;
+    color: black;
+    border-bottom: 4px solid black;
+}
+.hidden{
+    visibility: hidden;
+}
+
 .btn-main {
     display: inline-block;
     box-sizing: border-box;
