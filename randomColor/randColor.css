@@ -16,3 +16,12 @@
     box-shadow: 0 0 0 0.5rem rgba(10, 10, 10, .5);
     color: #ffffff;
 }
+.color{
+    text-decoration: none;
+    color:var(--text-color);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.color:hover{
+    color:var(--text-color)
+}

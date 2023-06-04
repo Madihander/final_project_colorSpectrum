@@ -22,9 +22,14 @@ changeBtn.addEventListener("click", () => {
     let string = hexToRgb(hexColor);
     colorRGB.textContent = `${string.r}, ${string.g}, ${string.b}`;
 
+    string = hexToHsv(hexColor)
+    colorHSV.textContent =
+        `${parseFloat(string.h.toFixed(2))}°,
+         ${parseFloat(string.s.toFixed(2))}%,
+         ${parseFloat(string.v.toFixed(2))}%`;
+
     string = hexToHsl(hexColor)
     colorHSL.textContent = `${string.h}°, ${string.s}%, ${string.l}%`;
-
 
 
 })
@@ -45,6 +50,40 @@ function hexToRgb(hex) {
     return {r, g, b};
 }
 
+function hexToHsv(hex) {
+    const rgb = hexToRgb(hex);
+    return rgbToHsv(rgb.r, rgb.g, rgb.b);
+}
+
+function rgbToHsv(r, g, b) {
+    r /= 255, g /= 255, b /= 255;
+
+    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+    var h, s, v = max;
+
+    var d = max - min;
+    s = max == 0 ? 0 : d / max;
+
+    if (max == min) {
+        h = 0; // achromatic
+    } else {
+        switch (max) {
+            case r:
+                h = (g - b) / d + (g < b ? 6 : 0);
+                break;
+            case g:
+                h = (b - r) / d + 2;
+                break;
+            case b:
+                h = (r - g) / d + 4;
+                break;
+        }
+
+        h /= 6;
+    }
+
+    return {h, s, v};
+}
 
 function hexToHsl(hex) {
     const rgb = hexToRgb(hex);
@@ -93,6 +132,5 @@ function rgbToHsl(r, g, b) {
     s = +(s * 100).toFixed(1);
     l = +(l * 100).toFixed(1);
 
-    return {h,s,l};
+    return {h, s, l};
 }
-
