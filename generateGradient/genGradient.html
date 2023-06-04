@@ -3,8 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="genGradient.css">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ColorSpectrum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active picker" href="randomColor.html">Color Picker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active random" href="#">Random Color</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active gradient" href="#">Create Gradient</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<div class="container min-vh-100 d-flex justify-content-center align-items-center flex-column">
+    <h1 id="title">ColorSpectrum</h1>
+    <div class="row">
+        <div class="col-12 h-100">
+            <figure class="figure gradient-box p-3 mb-4">
+
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 text-center">
+            <h5 class="h5Custom">Direction</h5>
+            <select class="form-select select-box" name="" id="">
+                <option value="to top">Top</option>
+                <option value="to right top">Right Top</option>
+                <option value="to right">Right</option>
+                <option value="to right bottom">Right Bottom</option>
+                <option value="to bottom">Bottom</option>
+                <option value="to left bottom">Left Bottom</option>
+                <option value="to left">Left</option>
+                <option value="to left top" selected>Left Top</option>
+            </select>
+        </div>
+        <div class="col-xl-1 hidden">123</div>
+        <div class="col-xl-5 text-center">
+            <h5 class="h5Custom colors">Colors</h5>
+            <div class="inputs colors d-flex flex-row justify-content-center align-items-center">
+                <input class="form-control me-2" type="color" value="#5665E9">
+                <input class="form-control" type="color" value="#A271F8">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 mb-4">
+        <div class="col-xl-12">
+            <h5 class="p-3" id="gradCode">background: linear-gradient(to left top, #5665E9, #A271F8);</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 hidden">123</div>
+        <div class="col-5">
+            <button class="btn-main btn-change refresh">Refresh</button>
+        </div>
+        <div class="col-5">
+            <button class="btn-main btn-change copy">Copy</button>
+
+        </div>
+        <div class="col-1 hidden">123</div>
+    </div>
+</div>
+
+
+<script src="genGradient.js"></script>
 </body>
 </html>
