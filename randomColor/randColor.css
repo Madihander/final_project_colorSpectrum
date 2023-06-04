@@ -1,0 +1,18 @@
+
+.backgroundColor {
+    border-radius: 0.7rem;
+    font-family: var(--h-font);
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+.btn-change {
+    letter-spacing: 2px;
+}
+
+.btn-change:hover {
+    background-color: #121212;
+    border-color: #121212;
+    box-shadow: 0 0 0 0.5rem rgba(10, 10, 10, .5);
+    color: #ffffff;
+}
