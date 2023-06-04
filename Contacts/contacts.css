@@ -1,0 +1,15 @@
+.input-group-text{
+    font-size: 1.2rem;
+}
+.form-control{
+    font-size: 1.2rem;
+}
+.h3Custom{
+    font-family: var(--title-font);
+    color:black
+}
+
+.h4Custom{
+    font-family: var(--h-font);
+    color:black;
+}
