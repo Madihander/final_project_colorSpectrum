@@ -24,6 +24,18 @@
     --h-font: 'Montserrat', sans-serif ;
     --p-font: 'Lato', sans-serif;
 }
+
+.random {
+    color: var(--first-color);
+}
+.picker {
+    color: var(--second-color);
+}
+
+.gradient {
+    color: var(--third-color);
+}
+
 body {
     background-color: #e5e5f7;
     opacity: 0.8;

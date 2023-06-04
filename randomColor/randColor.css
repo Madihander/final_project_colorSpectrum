@@ -1,3 +1,9 @@
+.navbar-brand{
+    font-family: var(--title-font);
+}
+.nav-link{
+    font-family: var(--h-font);
+}
 
 .backgroundColor {
     border-radius: 0.7rem;
