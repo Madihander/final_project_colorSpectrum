@@ -41,13 +41,28 @@
     <div class="text-center">
         <div class="backgroundColor p-5 m-5">
             <h1 class="hidden">12312312312312312312312312311111111</h1>
-            <h1 class="pt-5 pb-3">Background Color:</h1>
-            <h1 class="pt-3 pb-5">#FFFFF</h1>
-            <h1 class="hidden">12312312312312312312312312311111111</h1>
+            <h1 class="pb-3">Background Color:</h1>
+
+            <h1 class="d-flex justify-content-center flex-row">
+                HEX: <a id="colorHex" class="ps-2"> #FFFFF</a>
+            </h1>
+
+            <h1 class="d-flex justify-content-center flex-row">
+                RGB: <a id="colorRGB" class="ps-2">255, 255, 255</a>
+            </h1>
+
+            <h1 class="d-flex justify-content-center flex-row">
+                HSV: <a id="colorHSV" class="ps-2"> 0°, 0%, 100%</a>
+            </h1>
+
+            <h1 class="d-flex justify-content-center flex-row">
+                HSL: <a id="colorHSL" class="ps-2">0°, 0%, 100% </a>
+            </h1>
         </div>
-        <button class="btn-main btn-change">Click</button>
+        <button id="changeBtn" class="btn-main btn-change">Click</button>
     </div>
 </div>
+<script src="randColor.js" language="JavaScript"></script>
 
 
 </body>
