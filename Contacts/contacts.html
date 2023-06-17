@@ -9,6 +9,7 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+<div id="preloader"></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">ColorSpectrum</a>
@@ -82,6 +83,30 @@
     </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script language="JavaScript">
+    document.addEventListener("DOMContentLoaded", function () {
+        var preloader = document.getElementById("preloader");
+
+        // Показываем preloader
+        preloader.style.display = "block";
+
+        // Задержка на 2 секунды
+        setTimeout(function () {
+            // Скрываем preloader
+            preloader.style.display = "none";
+        }, 1000);
+    });
+    $(document).ready(function() {
+        // Обработчик события keypress
+        $(document).keypress(function(event) {
+            console.log("Печатается текст");
+        });
+    });
+
+
+
+</script>
 </body>
 </html>
