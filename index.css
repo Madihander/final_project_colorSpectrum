@@ -6,7 +6,7 @@
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Lato', sans-serif;*/
 /*font-family: 'Pacifico', cursive;*/
-:root{
+:root {
     /* COLORS */
     --first-color: #FFCFD2;
     --sub-first-color: #fcbbbf;
@@ -20,20 +20,33 @@
     --text-color: black;
 
     /* TYPOGRAPH */
-    --title-font:'Pacifico', cursive;
-    --h-font: 'Montserrat', sans-serif ;
+    --title-font: 'Pacifico', cursive;
+    --h-font: 'Montserrat', sans-serif;
     --p-font: 'Lato', sans-serif;
 }
-.navbar-brand{
+
+#preloader {
+    display: none;
+    background: #000000 url("img/XOsX.gif") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.navbar-brand {
     font-family: var(--title-font);
 }
-.nav-link{
+
+.nav-link {
     font-family: var(--h-font);
 }
 
 .random {
     color: var(--first-color);
 }
+
 .picker {
     color: var(--second-color);
 }
@@ -44,19 +57,20 @@
 
 body {
     background-color: #e5e5f7;
-    opacity: 0.8;
+    opacity: 0.9;
     background-image: radial-gradient(#444cf7 1.3px, #e5e5f7 1.3px);
     background-size: 36px 36px;
 }
 
-#title{
+#title {
     font-size: 3rem;
     font-family: var(--title-font);
     color: var(--text-color);
     border-bottom: 4px solid black;
     border-radius: 8px;
 }
-.hidden{
+
+.hidden {
     visibility: hidden;
 }
 
@@ -92,7 +106,7 @@ body {
     padding: 0.375rem 0.75rem;
     border-radius: 0.5rem;
     position: relative;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .btn-random {
@@ -105,25 +119,25 @@ body {
     border-color: var(--second-color);;
 }
 
-.btn-gradient{
+.btn-gradient {
     background-color: var(--third-color);
     border-color: var(--third-color);
 }
 
-.btn-random:hover{
+.btn-random:hover {
     background-color: var(--sub-first-color);
     border-color: var(--sub-first-color);
-    box-shadow: 0 0 0 0.5rem rgba(232, 165, 169,.5);
+    box-shadow: 0 0 0 0.5rem rgba(232, 165, 169, .5);
 }
 
-.btn-picker:hover{
+.btn-picker:hover {
     background-color: var(--sub-second-color);
     border-color: var(--sub-second-color);
-    box-shadow: 0 0 0 0.5rem rgba(122, 229, 240,.5);
+    box-shadow: 0 0 0 0.5rem rgba(122, 229, 240, .5);
 }
 
-.btn-gradient:hover{
+.btn-gradient:hover {
     background-color: var(--sub-third-color);
     border-color: var(--sub-third-color);
-    box-shadow: 0 0 0 0.5rem rgba(181, 152, 227,.5);
+    box-shadow: 0 0 0 0.5rem rgba(181, 152, 227, .5);
 }
