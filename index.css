@@ -128,16 +128,21 @@ body {
     background-color: var(--sub-first-color);
     border-color: var(--sub-first-color);
     box-shadow: 0 0 0 0.5rem rgba(232, 165, 169, .5);
+    color: #ffffff;
 }
 
 .btn-picker:hover {
     background-color: var(--sub-second-color);
     border-color: var(--sub-second-color);
     box-shadow: 0 0 0 0.5rem rgba(122, 229, 240, .5);
+    color: #ffffff;
+
 }
 
 .btn-gradient:hover {
     background-color: var(--sub-third-color);
     border-color: var(--sub-third-color);
     box-shadow: 0 0 0 0.5rem rgba(181, 152, 227, .5);
+    color: #ffffff;
+
 }
