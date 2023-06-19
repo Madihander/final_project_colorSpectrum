@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Crimson';
+    src: url('fonts/Crimson_Text/CrimsonText-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-BoldItalic';
+    src: url('fonts/Crimson_Text/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-Italic';
+    src: url('fonts/Crimson_Text/CrimsonText-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-Regular';
+    src: url('fonts/Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-SemiBold';
+    src: url('fonts/Crimson_Text/CrimsonText-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-SemiBoldItalic';
+    src: url('fonts/Crimson_Text/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText-Bold';
+    src: url('fonts/Crimson_Text/CrimsonText-Bold.ttf') format('truetype');
+}
+
+.list-group{
+    padding-top: 50px;
+}
+
+#crimson h1{
+    padding-top: 20px;
+    text-align: center;
+    background-color:bisque;
+    font-size: 4rem;
+    font-family: 'Crimson', sans-serif;
+}
+
+#fonts .first{
+    font-size: 2rem;
+    font-family: 'CrimsonText-Italic', sans-serif;
+}
+
+.second{
+    font-size: 2rem;
+    font-family: 'CrimsonText-SemiBoldItalic', sans-serif;
+}
+.third{
+    font-size: 2rem;
+    font-family: 'CrimsonText-Regular', sans-serif;
+}
+
+.four{
+    font-size: 2rem;
+    font-family: 'CrimsonText-SemiBold ', sans-serif;
+}
+.five{
+    font-size: 2rem;
+    font-family:  'CrimsonText-BoldItalic', sans-serif;
+}
+.six{
+    font-size: 2rem;
+    font-family: 'CrimsonText-Bold', sans-serif;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 80%;
+}

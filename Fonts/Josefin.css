@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url('fonts/Josefin_Sans/JosefinSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-BoldItalic';
+    src: url('fonts/Josefin_Sans/JosefinSans-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-ExtraLight';
+    src: url('fonts/Josefin_Sans/JosefinSans-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-ExtraLightItalic';
+    src: url('fonts/Josefin_Sans/JosefinSans-ExtraLightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-Italic';
+    src: url('fonts/Josefin_Sans/JosefinSans-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-Light';
+    src: url('fonts/Josefin_Sans/JosefinSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-LightItalic';
+    src: url('fonts/Josefin_Sans/JosefinSans-LightItalic.ttf') format('truetype');
+}
+
+.list-group{
+    padding-top: 50px;
+}
+
+#Josefin h1{
+    padding-top: 20px;
+    text-align: center;
+    background-color:rgb(87, 224, 126);
+    font-size: 4rem;
+    font-family: 'JosefinSans-Bold', sans-serif;
+}
+
+#fonts .first{
+    font-size: 2rem;
+    font-family: 'JosefinSans-Bold', sans-serif;
+}
+
+.second{
+    font-size: 2rem;
+    font-family: 'JosefinSans-BoldItalic', sans-serif;
+}
+.third{
+    font-size: 2rem;
+    font-family: 'JosefinSans-ExtraLight', sans-serif;
+}
+
+.four{
+    font-size: 2rem;
+    font-family: 'JosefinSans-ExtraLightItalic ', sans-serif;
+}
+.five{
+    font-size: 2rem;
+    font-family: 'JosefinSans-Italic', sans-serif;
+}
+.six{
+    font-size: 2rem;
+    font-family: 'JosefinSans-Light', sans-serif;
+}
+.seven{
+    font-size: 2rem;
+    font-family: 'JosefinSans-LightItalic ', sans-serif;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 80%;
+}

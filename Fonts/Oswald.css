@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-ExtraLight';
+    src: url('fonts/Oswald/Oswald-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url('fonts/Oswald/Oswald-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('fonts/Oswald/Oswald-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url('fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
+}
+
+.list-group{
+    padding-top: 50px;
+}
+
+#Oswald h1{
+    padding-top: 20px;
+    text-align: center;
+    background-color:rgb(229, 49, 21);
+    font-size: 4rem;
+    font-family: 'Oswald-Bold', sans-serif;
+}
+
+#fonts .first{
+    font-size: 2rem;
+    font-family: 'Oswald-Bold', sans-serif;
+}
+
+.second{
+    font-size: 2rem;
+    font-family: 'Oswald-ExtraLight', sans-serif;
+}
+.third{
+    font-size: 2rem;
+    font-family: 'Oswald-Light', sans-serif;
+}
+
+.four{
+    font-size: 2rem;
+    font-family: 'Oswald-Medium', sans-serif;
+}
+.five{
+    font-size: 2rem;
+    font-family: 'Oswald-Regular', sans-serif;
+}
+.six{
+    font-size: 2rem;
+    font-family: 'Oswald-SemiBold', sans-serif;
+}
+
+
+.image{
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 80%;
+}
