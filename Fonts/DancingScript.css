@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'DancingScript-Bold';
+    src: url('fonts/Dancing_Script/DancingScript-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DancingScript-Medium';
+    src: url('fonts/Dancing_Script/DancingScript-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DancingScript-Regular';
+    src: url('fonts/Dancing_Script/DancingScript-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DancingScript-SemiBold';
+    src: url('fonts/Dancing_Script/DancingScript-SemiBold.ttf') format('truetype');
+}
+
+.list-group{
+    padding-top: 50px;
+}
+
+#DancingScript h1{
+    padding-top: 20px;
+    text-align: center;
+    background-color:rgb(235, 105, 247);
+    font-size: 4rem;
+    font-family: 'DancingScript-Bold', sans-serif;
+}
+
+#fonts .first{
+    font-size: 2rem;
+    font-family: 'DancingScript-Bold', sans-serif;
+}
+
+.second{
+    font-size: 2rem;
+    font-family: 'DancingScript-Medium', sans-serif;
+}
+.third{
+    font-size: 2rem;
+    font-family: 'DancingScript-Regular', sans-serif;
+}
+
+.four{
+    font-size: 2rem;
+    font-family: 'DancingScript-SemiBold ', sans-serif;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 80%;
+}
