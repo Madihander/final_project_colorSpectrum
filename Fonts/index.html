@@ -4,61 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-	<title>ColorSpectrum</title>
+    <title>ColorSpectrum</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="../index.css">
 </head>
 
 <body>
-	<div class="row text-center mb-5">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-2 hidden">12312312</div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-8">
-            <img src="img/LogoSvg.svg" class="img-fluid rounded">
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-2 hidden">123123123</div>
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-2 col-1 hidden">123123123</div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-10">
-                <h1 id="title">ColorSpectrum</h1>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-2 col-1 hidden">123123123</div>
+<div id="preloader"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ColorSpectrum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active random" href="../randomColor/randomColor.html">Random Color</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active gradient" href="../generateGradient/genGradient.html">Create Gradient</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active gradient" href="../Fonts/index.html">Fonts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active gradient" href="#">Palette</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active gradient" href="../Contacts/contacts.html">Contracts</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="fnt">
-        <h1>FONTS</h1>
+</nav>
+
+
+<div class="fnt">
+    <h1>FONTS</h1>
+</div>
+
+<section id="services">
+    <div class="row">
+        <div class="box1">
+            <a class="one" href="first.html">Roboto</a>
+        </div>
+        <div class="box2">
+            <a class="two" href="crimson.html">Crimson</a>
+        </div>
+        <div class="box3">
+            <a class="third" href="DancingScript.html">DancingScript</a>
+        </div>
+        <div class="box4">
+            <a class="four" href="Josefin.html">Josefin</a>
+        </div>
+        <div class="box5">
+            <a class="five" href="Kalam.html">Kalam</a>
+        </div>
+        <div class="box6">
+            <a class="six" href="Oswald.html">Oswald</a>
+        </div>
+        <div class="box7">
+            <a class="seven" href="Playfair.html">Playfair</a>
+        </div>
+        <div class="box8">
+            <a class="eight" href="Raleway.html">Raleway</a>
+        </div>
     </div>
+</section>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var preloader = document.getElementById("preloader");
 
-    <section id="services">
-    	<div class="row">
-    		<div class="box1">
-    			<a class="one" href="first.html">Roboto</a>
-    		</div>
-    		<div class="box2">
-    			<a class="two" href="crimson.html">Crimson</a>
-    		</div>
-            <div class="box3">
-    			<a class="third" href="DancingScript.html">DancingScript</a>
-    		</div>
-            <div class="box4">
-    			<a class="four" href="Josefin.html">Josefin</a>
-    		</div>
-			<div class="box5">
-    			<a class="five" href="Kalam.html">Kalam</a>
-    		</div>
-			<div class="box6">
-    			<a class="six" href="Oswald.html">Oswald</a>
-    		</div>
-			<div class="box7">
-    			<a class="seven" href="Playfair.html">Playfair</a>
-    		</div>
-			<div class="box8">
-    			<a class="eight" href="Raleway.html">Raleway</a>
-    		</div>
-    	</div>
-    </section>
+        // Показываем preloader
+        preloader.style.display = "block";
 
+        // Задержка на 2 секунды
+        setTimeout(function () {
+            // Скрываем preloader
+            preloader.style.display = "none";
+        }, 1000);
+    });
+</script>
 </body>
 
 </html>

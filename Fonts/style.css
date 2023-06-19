@@ -7,235 +7,252 @@
     font-family: 'CrimsonText-Bold';
     src: url('fonts/Crimson_Text/CrimsonText-Bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'DancingScript-Bold';
     src: url('fonts/Dancing_Script/DancingScript-Bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'JosefinSans-Bold';
     src: url('fonts/Josefin_Sans/JosefinSans-Bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Kalam-Bold';
     src: url('fonts/Kalam/Kalam-Bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Oswald-Bold';
     src: url('fonts/Oswald/Oswald-Bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'PlayfairDisplay-Black';
     src: url('fonts/Playfair_Display/PlayfairDisplay-Black.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Raleway-Black';
     src: url('fonts/Raleway/Raleway-Black.ttf') format('truetype');
 }
 
 
-.fnt h1{
+.fnt h1 {
+    font-family: var(--h-font);
     text-align: center;
-	padding: 25px 0 40px 0;
-	font-size: 4rem;
-	background-color:white ;
+    padding: 25px 0 40px 0;
+    font-size: 4rem;
+    background-color: white;
 }
 
-#services{
-	display: flex;
-	flex-direction: column;
-	padding: 30px;
+#services {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
-.row{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	box-sizing: border-box;
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
-.box1{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(66, 231, 233)50%,white 50%);
-}
-.box1:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px rgb(66, 231, 233);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(66, 231, 233) 50%, white 50%);
 }
 
-.box2{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box1:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(66, 231, 233);
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(245, 190, 40)50%,white 50%);
-	transition: all .8s;
-}
-.box2:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(245, 190, 40);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(245, 190, 40) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box3{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box2:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(245, 190, 40);
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 20px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(235, 105, 247)50%,white 50%);
-	transition: all .8s;
-}
-.box3:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(235, 105, 247);
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(235, 105, 247) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box4{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box3:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(235, 105, 247);
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(87, 224, 126)50%,white 50%);
-	transition: all .8s;
-}
-.box4:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(87, 224, 126);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(87, 224, 126) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box5{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box4:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(87, 224, 126);
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(233, 233, 66)50%,white 50%);
-	transition: all .8s;
-}
-.box5:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(233, 233, 66);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(233, 233, 66) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box6{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box5:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(233, 233, 66);
+}
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(229, 49, 21)50%,white 50%);
-	transition: all .8s;
-}
-.box6:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(229, 49, 21);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(229, 49, 21) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box7{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box6:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(229, 49, 21);
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(66, 116, 233)50%,white 50%);
-	transition: all .8s;
-}
-.box7:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(66, 116, 233);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(66, 116, 233) 50%, white 50%);
+    transition: all .8s;
 }
 
-.box8{
-	display: flex;
-	flex-direction: column;
-	width: 350px;
-	height: 350px;
-	border: 1px solid black;
-	margin: 10px;
+.box7:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(66, 116, 233);
+}
+
+.box8 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
     cursor: pointer;
-	align-items: center;
-	text-align: justify;
-	padding: 10px;
-	border-radius: 15px;
-	background-size: 100% 200%;
-	background:linear-gradient(to top, rgb(254, 145, 201)50%,white 50%);
-	transition: all .8s;
-}
-.box8:hover{
-    background-position: left bottom;
-    color:black;
-    border: none;
-	box-shadow: 0 0 20px  rgb(254, 145, 201);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    background: linear-gradient(to top, rgb(254, 145, 201) 50%, white 50%);
+    transition: all .8s;
 }
 
-.one{
-    font-family:'Roboto';
+.box8:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(254, 145, 201);
+}
+
+.one {
+    font-family: 'Roboto';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
@@ -243,7 +260,7 @@
     color: black;
 }
 
-.two{
+.two {
     font-family: 'CrimsonText-Bold';
     text-decoration: none;
     display: inline-block;
@@ -253,7 +270,7 @@
 }
 
 .third {
-	font-family: 'DancingScript-Bold';
+    font-family: 'DancingScript-Bold';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
@@ -261,40 +278,44 @@
     color: black;
 }
 
-.four{
-	font-family: 'JosefinSans-Bold';
+.four {
+    font-family: 'JosefinSans-Bold';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
     font-size: 3rem;
     color: black;
 }
-.five{
-	font-family: 'Kalam-Bold';
+
+.five {
+    font-family: 'Kalam-Bold';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
     font-size: 3rem;
     color: black;
 }
-.six{
-	font-family: 'Oswald-Bold';
+
+.six {
+    font-family: 'Oswald-Bold';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
     font-size: 3rem;
     color: black;
 }
-.seven{
-	font-family: 'PlayfairDisplay-Black';
+
+.seven {
+    font-family: 'PlayfairDisplay-Black';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;
     font-size: 3rem;
     color: black;
 }
-.eight{
-	font-family: 'Raleway-Black';
+
+.eight {
+    font-family: 'Raleway-Black';
     text-decoration: none;
     display: inline-block;
     padding-top: 40%;

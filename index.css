@@ -1,4 +1,5 @@
 /*https://www.magicpattern.design/tools/css-backgrounds*/
+/*https://coolors.co/fbf8cc-fde4cf-ffcfd2-f1c0e8-cfbaf0-a3c4f3-90dbf4-8eecf5-98f5e1-b9fbc0*/
 /*Background на каждую страницу*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -124,6 +125,11 @@ body {
     border-color: var(--third-color);
 }
 
+.btn-font {
+    background-color: #98f5e1;
+    border-color: #98f5e1;
+}
+
 .btn-random:hover {
     background-color: var(--sub-first-color);
     border-color: var(--sub-first-color);
@@ -136,7 +142,6 @@ body {
     border-color: var(--sub-second-color);
     box-shadow: 0 0 0 0.5rem rgba(122, 229, 240, .5);
     color: #ffffff;
-
 }
 
 .btn-gradient:hover {
@@ -144,5 +149,11 @@ body {
     border-color: var(--sub-third-color);
     box-shadow: 0 0 0 0.5rem rgba(181, 152, 227, .5);
     color: #ffffff;
+}
 
+.btn-font:hover {
+    background-color: #5EFDDA;
+    border-color: #5EFDDA;
+    box-shadow: 0 0 0 0.5rem #A3F8E6;
+    color: #ffffff;
 }
