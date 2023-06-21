@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var preloader = document.getElementById("preloader");
 
     // Показываем preloader
     preloader.style.display = "block";
 
     // Задержка на 2 секунды
-    setTimeout(function() {
+    setTimeout(function () {
         // Скрываем preloader
         preloader.style.display = "none";
     }, 1000);
@@ -14,7 +14,12 @@ const hex = [
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
     "A", "B", "C", "D", "E", "F"
 ];
-
+$(document).ready(function () {
+    // Обработчик события click
+    $('#changeBtn').click(function () {
+        alert("Generate random Colour!")
+    });
+});
 const changeBtn = document.getElementById("changeBtn")
 const colorHex = document.getElementById("colorHex")
 let colorRGB = document.getElementById("colorRGB")
