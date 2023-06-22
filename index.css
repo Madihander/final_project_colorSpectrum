@@ -130,6 +130,11 @@ body {
     border-color: #98f5e1;
 }
 
+.btn-palette {
+    background-color: #fbf8cc;
+    border-color: #fbf8cc;
+}
+
 .btn-random:hover {
     background-color: var(--sub-first-color);
     border-color: var(--sub-first-color);
@@ -156,4 +161,11 @@ body {
     border-color: #5EFDDA;
     box-shadow: 0 0 0 0.5rem #A3F8E6;
     color: #ffffff;
+}
+
+.btn-palette:hover {
+    background-color: #FAF7D5;
+    border-color: #FAF7D5;
+    box-shadow: 0 0 0 0.5rem #FAF7D5;
+    color: black;
 }
